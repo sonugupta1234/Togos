@@ -38,7 +38,7 @@ const HomePage = () => {
 
     toast.success("Data Saved Sucessfully", {
       position: "top-right",
-      autoClose: 5000,
+      autoClose: 30000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
@@ -58,6 +58,7 @@ const HomePage = () => {
   return (
     <>
       <div class="bg-sky-500/100 w-100 m-auto p-2">
+        <ToastContainer />
         <h1 className="text-2xl text-center text-blue-700">Personal info</h1>
         <p>Please provide your name, email address, and phone number</p>
 
