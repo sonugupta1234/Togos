@@ -78,6 +78,7 @@ const HomePage = () => {
                 name="Name"
                 type="text"
                 id="Name"
+                placeholder="Enter Name"
                 onChange={handleChange}
               />
               {errors.Name && touched.Name ? (
@@ -93,6 +94,7 @@ const HomePage = () => {
                 name="Email"
                 type="email"
                 id="Email"
+                placeholder="Enter Email"
                 onChange={handleChange}
               />
               {errors.Email && touched.Email ? (
@@ -108,6 +110,7 @@ const HomePage = () => {
                 name="PhoneNumber"
                 type="number"
                 id="PhoneNumber"
+                placeholder="Enter PhoneNumber"
                 onChange={handleChange}
               />
               {errors.PhoneNumber && touched.PhoneNumber ? (
